@@ -23,7 +23,7 @@ export const {
      })
    } },
     callbacks: {
-      async signIn({ account, user}) {
+      async signIn({ user, account }) {
         if (account?.provider !== "credentials") return true;
         const existingUser = await getUserById(user.id || "");
         //prevent sign in without email verification
