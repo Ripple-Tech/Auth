@@ -18,7 +18,8 @@ export default function Home() {
           Auth
         </h1>
         <p className="text-white text-lg">
-          A complete Ecommerce website ready for sale and customization</p>
+        Next.js-powered authentication solution providing secure user management,
+         role-based access control, and OAuth integration</p>
           <div>
           <LoginButton mode="modal" asChild>
             <Button variant="secondary" size="lg">
